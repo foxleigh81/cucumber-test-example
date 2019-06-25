@@ -1,6 +1,6 @@
 # Cucumber Example
 
-[![CircleCI](https://circleci.com/gh/foxleigh81/cucumber-example.svg?style=svg)](https://circleci.com/gh/foxleigh81/cucumber-example)
+[![CircleCI](https://circleci.com/gh/foxleigh81/cucumber-test-example.svg?style=svg)](https://circleci.com/gh/foxleigh81/cucumber-test-example)
 
 Hi. Here are my tests for the cucumber test. I notice by question 4 that you are using `cucumber-boilerplate` but I've actually got no experience in using that so I went with my usual implementation of Cucumber + NightwatchJS. I hope that's ok. The boilerplate looks good though and I'll be having a look at it for my future projects :)
 
