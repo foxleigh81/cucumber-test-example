@@ -7,7 +7,7 @@ Hey. The PDF I was sent doesn't contain a link to a testable site
 or a repo with runnable code (it would be great if that could be added for future applicants). 
 As such, I've added the two extra scenarios below to emulate visiting a site, obviously 
 if you do run the tests against your own code base, you'll also need to run the server, 
-you can do this just with `npm start`.
+you can do this just with `npm start-all`.
 
 Ta :)
 

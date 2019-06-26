@@ -17,6 +17,8 @@ npm run start-all
 
 Or if you would prefer to run the server and tests seperately, you can run `npm start` and `npm test` in different sessions.
 
+To save you time, I've also set up a circleci build that you can look at the results of. If you click on the badge above or [click here](https://circleci.com/gh/foxleigh81/cucumber-test-example) you can see the results of that build.
+
 ## Answer to question 4
 
 - The `import` contains `Given`, `When`, `Then`, `And` and `But` but the steps themselves only use `Given`, `When`, `Then` and `And`. `But` can be removed from the import.
@@ -34,19 +36,3 @@ Or if you would prefer to run the server and tests seperately, you can run `npm 
 - Some of the tests target classes, this isn't a good idea as classes are really for CSS. Either add specific classes just for testing or ideally, add data attributes.
 
 - There may be more but I think I might need to be more familiar with the predefined steps from cucumber-boilerplate
-
-## Feedback
-
-- So a large part of my time was spent working out a way to actually be able to run my tests. Having the test provided via PDF wasn't very helpful to me. 
-
-  Perhaps it would be better to provide a template repo with some runnable code but no tests in it and then future applicants won't need to spend the extra time on things that are unrelated to the question.
-
-  Alternatively, you could make the tests apply to a live demo site which we can run tests against. This will also make sure users know how to use web drivers :)
-
- - Question 4 makes a big assumption that users already have familiarity with cucumber-boilerplate. This wasn't something I'd heard of before and I only found it after googling several of the functions which are used in the steps for Q4. 
- 
-   It would be better to ask questions which relate to pure Cucumber steps, or at least point the applicant in the direction of cucumber-boilerplate so they can read up (although the former is preferable as we don't have tons of spare time to learn new things for a coding test.)
-
-- The test itself was really straightforward and the questions were clear and easy to follow.
-
-- The inclusion of the screenshot and the code-snippets were useful but again it would have been a lot more useful if they were alongside some runnable code.
