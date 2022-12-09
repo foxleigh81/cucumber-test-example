@@ -20,7 +20,7 @@
   "homepage": "https://github.com/foxleigh81/cucumber-example#readme",
   "dependencies": {
     "concurrently": "^4.1.1",
-    "http-server": "^0.11.1"
+    "http-server": "^0.11.2"
   },
   "devDependencies": {
     "chromedriver": "^75.0.0",
